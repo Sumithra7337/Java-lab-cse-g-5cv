@@ -39,4 +39,4 @@ class QuadraticEquationSolution{
 '''
 ## Output:
 ##Case-1(D>0):
-[experiment 1 output](quad1.png)
+![experiment 1 output](quad1.png)
