@@ -67,8 +67,10 @@ class QuadraticEquationSolution{
 ## Output:
 ## Case-1(D>0):
 ![Experiment 1b output](quad1.png)
+## Output:
 ## Case-2(D=0):
 ![Experiment 1b output](quad2.png)
+## Output:
 ## Case-3(D<0):
 ![Experiment 1b output](quad3.png)
 
