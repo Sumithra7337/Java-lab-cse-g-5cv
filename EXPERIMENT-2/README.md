@@ -28,5 +28,30 @@
 ## Output:
 ![experiment 2 output](2a.png)
 
+## Exp2b)Title:Write a JAVA program implement method overlaoding.
+## Source Code:
+``` java
+ public class Sum{
+  int Sum(int a,int b){
+   return a+b;
+  }
+  int Sum(int a,int b,int c){
+   return a+b;
+  }
+  double Sum(double a,double b){
+   return a+b;
+  }
+ }
+ class Main{
+  public static void main(String args[]){
+  Sum S = new Sum();
+  System.out.println("Sum of 2 integers: "+S.Sum(20,36.46));
+  System.out.println("Sum of two real number: "+S.Sum(30.465,15.675));
+  }
+ }
+```
+## Output:
+![experiment 2 output](2b.png)
+
 
 
