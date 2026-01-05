@@ -53,5 +53,34 @@
 ## Output:
 ![experiment 2 output](2b.png)
 
+ ## Exp2c)Write a JAVA program to implement constructor.
+ ## Source Code:
+  class Student{
+   String sname;
+   int sage;
+   double smarks;
+   Student(String name,int age,double marks){
+   sname = name;
+   sage = age;
+   smarks = marks;
+   }
+   void display(){
+   System.out.println("Student name:" + sname);
+   System.out.println("Student age:" + sage);
+   System.out.println("Student marks: " + smarks);
+   }
+ }
+
+  class Main{
+   public static void main(String args[]){
+   Student s = new Student("Sumithra ",19,982);
+   s.display();
+   }
+ }
+## Output:
+[experiment 2 output](2c.png)
+
+
+
 
 
