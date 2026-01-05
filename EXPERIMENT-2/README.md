@@ -78,7 +78,7 @@
    }
  }
 ## Output:
-[experiment 2 output](2c.png)
+![experiment 2 output](2c.png)
 
 
 
