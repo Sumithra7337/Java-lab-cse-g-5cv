@@ -26,7 +26,7 @@
  }
 ```
 ## Output:
-![experiment 2 output](2a.png)
+![experiment 2 output](mechanism.png)
 
 ## Exp2b)Title:Write a JAVA program implement method overlaoding.
 ## Source Code:
@@ -51,7 +51,7 @@
  }
 ```
 ## Output:
-![experiment 2 output](2b.png)
+![experiment 2 output](overlapping.png)
 
  ## Exp2c)Write a JAVA program to implement constructor.
  ## Source Code:
@@ -78,7 +78,7 @@
    }
  }
 ## Output:
-![experiment 2 output](2c.png)
+![experiment 2 output](constructor.png)
 
 
 
