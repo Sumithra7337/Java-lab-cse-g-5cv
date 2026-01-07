@@ -55,6 +55,7 @@
 
  ## Exp2c)Write a JAVA program to implement constructor.
  ## Source Code:
+ ``` java
   class Student{
    String sname;
    int sage;
@@ -77,6 +78,7 @@
    s.display();
    }
  }
+```
 ## Output:
 ![experiment 2 output](constructor.png)
 
