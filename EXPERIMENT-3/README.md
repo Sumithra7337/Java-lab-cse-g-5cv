@@ -28,4 +28,6 @@ class Main{
   }
 } 
 ```
+## OUTPUT:
+![Experiment 3 output](constructor ovverlapping.png)
 
