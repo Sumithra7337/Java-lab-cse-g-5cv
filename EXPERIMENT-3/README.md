@@ -29,5 +29,5 @@ class Main{
 } 
 ```
 ## OUTPUT:
-![Experiment 3 output](constructor ovverlapping.png)
+![Experiment 3 output](construction overlapping.png)
 
