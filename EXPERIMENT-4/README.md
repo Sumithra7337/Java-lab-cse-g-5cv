@@ -128,5 +128,5 @@ public class TestFigure {
 # Output:
 ![experiment 4 output](figure)
 
- }
+ 
 
