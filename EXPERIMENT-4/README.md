@@ -40,7 +40,7 @@
    }
 ```
 # Output:
-![experiment 4 output](sigleinheritance.png)
+![experiment 4 output](singleinheritance.png)
 
 # 4b)Title:Implement multilevelinheritance.
 # Sourcde code:
