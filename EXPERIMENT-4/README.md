@@ -40,7 +40,7 @@
    }
 ```
 # Output:
-![experiment 4 output](sigleinheritance)
+![experiment 4 output](sigleinheritance.png)
 
 # 4b)Title:Implement multilevelinheritance.
 # Sourcde code:
@@ -82,7 +82,7 @@ class TestVehicle {
 
 ```
 # Output:
-![experiment 4 output](multilevelinheritance)
+![experiment 4 output](multilevelinheritance.png)
 
 
 # 4c)Construct abstract classs to find areas of different shapes.
@@ -126,7 +126,7 @@ public class TestFigure {
 }
 ```
 # Output:
-![experiment 4 output](figure)
+![experiment 4 output](abstract.png)
 
  
 
