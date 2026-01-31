@@ -1,4 +1,4 @@
-## ADDITIONAL EXPEIMENT:
+## ADDITIONAL EXPEIMENTS:
 ## EXPERIMENT-2
 ## Title:To find the sum of the first n Fabonacci numbers.
 ## Souce code:
@@ -59,3 +59,5 @@ class Main{
 ## Output:
 ![experiment output](fibonacci.png)
 
+# EXPERIMENT-1
+# Tilte: Write a java program to insert a sub string into a given main string from a given position
