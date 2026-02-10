@@ -65,7 +65,7 @@
 # Output:
 ![experiment 5 output](sortable.png)
 
-# 5b)Write a JAVA program that implements Runtime polymorphism
+# 5B)Write a JAVA program that implements Runtime polymorphism
 # Soucecode:
 ``` java
 public class TestVehicle {
@@ -101,7 +101,7 @@ class TestVehicle {
 
 ```
 # Output:
-1[expriment 5 output](polymorphism.png)
+![expriment 5 output](polymorphism.png)
 
 # 5C) write a JAVA program using StringBuffer to delete,rremove character.
 # Sourcecode:
