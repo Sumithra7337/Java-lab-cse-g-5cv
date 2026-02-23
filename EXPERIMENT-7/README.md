@@ -136,5 +136,5 @@ class ThreadDemo {
     }
 }
 ```
-# OUTPUT;
+# OUTPUT:
 ![experiment 7 output](7c.png)
