@@ -164,3 +164,79 @@ class PerfectNumber {
  ```
 # Output:
 ![experiment output](perfectnumber.png)
+
+# Experiment-5
+# 5) Define  a class called cricket that describes the following information
+# SourceCode:
+``` java
+
+class Cricket {
+    String playerName;
+    String teamName;
+    double battingAverage;
+
+    Cricket(String playerName, String teamName, double battingAverage) {
+        this.playerName = playerName;
+        this.teamName = teamName;
+        this.battingAverage = battingAverage;
+    }
+
+    void display() {
+        System.out.println(playerName + " - " + battingAverage);
+    }
+}
+
+  import java.util.Scanner;
+
+class CricketMain {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter number of players: ");
+        int n = sc.nextInt();
+        sc.nextLine();
+
+        Cricket[] players = new Cricket[n];
+
+        for (int i = 0; i < n; i++) {
+            System.out.print("Enter player name: ");
+            String playerName = sc.nextLine();
+
+            System.out.print("Enter team name: ");
+            String teamName = sc.nextLine();
+
+            System.out.print("Enter batting average: ");
+            double battingAverage = sc.nextDouble();
+            sc.nextLine();
+
+            players[i] = new Cricket(playerName, teamName, battingAverage);
+        }
+
+        for (int i = 0; i < n; i++) {
+            boolean printed = false;
+
+            for (int k = 0; k < i; k++) {
+                if (players[i].teamName.equalsIgnoreCase(players[k].teamName)) {
+                    printed = true;
+                    break;
+                }
+            }
+
+            if (!printed) {
+                System.out.println("\nTeam: " + players[i].teamName);
+
+                for (int j = 0; j < n; j++) {
+                    if (players[j].teamName.equalsIgnoreCase(players[i].teamName)) {
+                        players[j].display();
+                    }
+                }
+            }
+        }
+
+        sc.close();
+    }
+}
+
+```
+# Output:
+![output](cricket.png)
