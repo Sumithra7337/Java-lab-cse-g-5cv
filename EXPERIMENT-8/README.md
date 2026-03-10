@@ -124,3 +124,48 @@ class SharedBuffer {
 ```
 # OUTPUT:
 ![experiment 8 output](sharedbuffer.png)
+
+# 8C)Write a JAVA program that import and use the user defined packages
+# SourceCode:
+``` java
+class ArithmeticOperation {
+
+    public int add(int x, int y) {
+        return x + y;
+    }
+
+    public int subtraction(int x, int y) {
+        return x - y;
+    }
+
+    public int multiplication(int x, int y) {
+        return x * y;
+    }
+
+    public int division(int x, int y) {
+        return x / y;
+    }
+}
+ class Main {
+    public static void main(String args[]) {
+
+        ArithmeticOperation ae = new ArithmeticOperation();
+
+        int sum = ae.add(10, 5);
+        System.out.println("Addition: " + sum);
+
+        int diff = ae.subtraction(10, 5);
+        System.out.println("Subtraction: " + diff);
+
+        int prod = ae.multiplication(10, 5);
+        System.out.println("Multiplication: " + prod);
+
+        int div = ae.division(10, 5);
+        System.out.println("Division: " + div);
+    }
+}
+```
+# Output:
+![experiment 8 output](import&userdefined.png)
+
+
